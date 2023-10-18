@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Taller: Responsive Design y Bootstrap (Individual)</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOREM IPSUM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Dolor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Amet</a>
+              </li>
+              <li class="nav-item dropdown d-lg-none">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >Opciones</a
+                >
+                <ul class="dropdown-menu">
+                  <li class="dropdown-item">Opción 1</li>
+                  <li class="dropdown-item">Opción 2</li>
+                  <li class="dropdown-item">Opción 3</li>
+                  <li class="dropdown-item">Opción 4</li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input
+                class="form-control" data-bs-theme="light"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <h1 class="text-center">Lorem ipsum...</h1>
+    <div id="carouselExampleInterval" class="carousel slide text-center mb-3" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h4 class="d-block w-100">Neque numquam dolore sit quibusdam autem ipsa</h4>
+          </div>
+          <div class="carousel-item">
+            <h4 class="d-block w-100">doloremque cumque libero, non maiores porro quia quis,</h4> 
+          </div>
+          <div class="carousel-item">
+            <h4 class="d-block w-100">sint facere? Fugit adipisci placeat nihil at.</h4>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <ul class="list-group col-3 d-none d-md-block">
+          <li class="list-group-item"><a class="text-reset" href="#">Opción 1</a></li>
+          <li class="list-group-item"><a class="text-reset" href="#">Opción 2</a></li>
+          <li class="list-group-item"><a class="text-reset" href="#">Opción 3</a></li>
+          <li class="list-group-item"><a class="text-reset" href="#">Opción 4</a></li>
+        </ul>
+        <div class="col text-justify">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+            <div class="col">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque numquam dolore sit quibusdam autem ipsa doloremque cumque libero, 
+                    non maiores porro quia quis, sint facere? Fugit adipisci placeat nihil at.
+                </div>
+                <div class="col">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto culpa eligendi ut, dolores esse corrupti commodi ab, 
+                    dignissimos voluptates nostrum quibusdam cum corporis enim, illo soluta tenetur placeat aliquid facilis.
+                </div>
+                <div class="col">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut ipsa alias, temporibus eveniet consequatur! Animi eligendi 
+                    vitae sint alias, fugit illo voluptatum voluptas repellendus atque recusandae necessitatibus provident consequatur.
+                </div>
+                <div class="col">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque numquam dolore sit quibusdam autem ipsa doloremque cumque libero, 
+                    non maiores porro quia quis, sint facere? Fugit adipisci placeat nihil at.
+                </div>
+                <div class="col">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto culpa eligendi ut, dolores esse corrupti commodi ab, 
+                    dignissimos voluptates nostrum quibusdam cum corporis enim, illo soluta tenetur placeat aliquid facilis.
+                </div>
+                <div class="col">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut ipsa alias, temporibus eveniet consequatur! Animi eligendi 
+                    vitae sint alias, fugit illo voluptatum voluptas repellendus atque recusandae necessitatibus provident consequatur.
+                </div>
+                <div class="col">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque numquam dolore sit quibusdam autem ipsa doloremque cumque libero,
+                    non maiores porro quia quis, sint facere? Fugit adipisci placeat nihil at.
+                </div>
+                <div class="col">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto culpa eligendi ut, dolores esse corrupti commodi ab, 
+                    dignissimos voluptates nostrum quibusdam cum corporis enim, illo soluta tenetur placeat aliquid facilis.
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
